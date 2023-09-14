@@ -5,7 +5,7 @@ A React Native component for displaying weather using [openweathermap.org](https
 ## INSTALL
 
 ```bash
-npm i @Saverio976/weather-monday-left-me-broken --registry=https://npm.pkg.github.com/
+npm install @saverio976/weather-monday-left-me-broken
 ```
 
 ## USAGE

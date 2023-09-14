@@ -1,8 +1,8 @@
 {
   "name": "@saverio976/weather-monday-left-me-broken",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A React Native component for displaying weather with a little joke",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "tsc"
