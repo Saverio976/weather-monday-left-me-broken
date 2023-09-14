@@ -1,6 +1,6 @@
 {
   "name": "weather-monday-left-me-broken",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A React Native component for displaying weather with a little joke",
   "main": "src/index.ts",
   "scripts": {
