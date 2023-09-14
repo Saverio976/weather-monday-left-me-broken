@@ -1,0 +1,42 @@
+{
+  "name": "weather-monday-left-me-broken",
+  "version": "0.0.1",
+  "description": "A React Native component for displaying weather with a little joke",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saverio976/weather-monday-left-me-broken.git"
+  },
+  "keywords": [
+    "rn",
+    "react-native",
+    "reactnative",
+    "weather",
+    "monday-left-me-broken",
+    "mondayleftmebroken"
+  ],
+  "author": "Saverio976",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Saverio976/weather-monday-left-me-broken/issues"
+  },
+  "homepage": "https://github.com/Saverio976/weather-monday-left-me-broken#readme",
+  "dependencies": {
+    "monday-left-me-broken": "^1.0.5",
+    "react-native": "^0.72.4",
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "dist/**/*",
+    "package.json",
+    "package-lock.json",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@types/react": "^18.2.21"
+  }
+}
