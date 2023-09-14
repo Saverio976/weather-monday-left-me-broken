@@ -18,6 +18,10 @@ import { Weather } from 'weather-monday-left-me-broken';
 //
 ```
 
+## DOC
+
+- The Code is The Doc: https://github.com/Saverio976/weather-monday-left-me-broken/blob/main/src/Weather.tsx
+
 ## CONTRIBUTORS
 
 - [Valegox](https://github.com/valegox)
