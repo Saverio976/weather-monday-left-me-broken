@@ -11,3 +11,8 @@ import { Weather } from 'weather-monday-left-me-broken';
     <Weather />
 //
 ```
+
+## Contributors
+
+- [Valegox](https://github.com/valegox)
+- [Saverio976](https://github.com/Saverio976)
