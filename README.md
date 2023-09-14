@@ -11,10 +11,10 @@ npm install @saverio976/weather-monday-left-me-broken
 ## USAGE
 
 ```js
-import { Weather } from 'weather-monday-left-me-broken';
+import Weather from 'weather-monday-left-me-broken';
 
 // somewhere in your code:
-    <Weather />
+    <Weather appid={"YOUR API KEY HERE"}/>
 //
 ```
 
