@@ -11,11 +11,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm ci
+
+      - name: Install dependencies
+        run: npm ci
 
   publish-gpr:
     needs: build
@@ -23,15 +28,24 @@ jobs:
     permissions:
       contents: read
       packages: write
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-      - run: npm ci
-      - run: |
-        echo "@Saverio976:registry=https://npm.pkg.github.com" >> .npmrc
-      - run: npm publish --registry=https://npm.pkg.github.com/
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: npmrc
+        run: echo "@Saverio976:registry=https://npm.pkg.github.com" >> .npmrc
+
+      - name: Publish
+        run: npm publish --registry=https://npm.pkg.github.com/
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
