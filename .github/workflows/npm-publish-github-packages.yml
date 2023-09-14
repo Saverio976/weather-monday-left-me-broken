@@ -44,7 +44,7 @@ jobs:
         run: npm ci
 
       - name: npmrc
-        run: echo "@Saverio976:registry=https://npm.pkg.github.com" >> .npmrc
+        run: echo "@saverio976:registry=https://npm.pkg.github.com" >> .npmrc
 
       - name: Publish
         run: npm publish --registry=https://npm.pkg.github.com/ --access public
@@ -66,7 +66,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: npmrc
-        run: echo "@Saverio976:registry=https://registry.npmjs.org/" >> .npmrc
+        run: echo "@saverio976:registry=https://registry.npmjs.org/" >> .npmrc
 
       - name: Install dependencies
         run: npm ci
