@@ -1760,10 +1760,10 @@
     invariant "^2.2.4"
     nullthrows "^1.1.1"
 
-"@saverio976/weather-monday-left-me-broken@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@saverio976/weather-monday-left-me-broken/-/weather-monday-left-me-broken-0.0.7.tgz#85aec54201bb571126e01777683d2e2d7b6b16bb"
-  integrity sha512-fHOqu5hGVvKnW+yEAXj4s08M/3Qzlkl1NpWkPb36AyyWT1J4qEMEMHnoNvHLQyzvS+wkxy8LUJRUPnWyLF9xGA==
+"@saverio976/weather-monday-left-me-broken@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@saverio976/weather-monday-left-me-broken/-/weather-monday-left-me-broken-1.0.0.tgz#a6682d0bec741590c131dbc9894375b540bab94c"
+  integrity sha512-51G7G68wsEkRgcQ3zyuA7gT5y3l8qXHFqjX//+BxmIs6VTDWFvWB+bQQ+cw4Wa91rwIokXw1b1zP/95rfb3dhg==
   dependencies:
     monday-left-me-broken "^1.0.5"
     react-native "^0.72.4"
@@ -5718,9 +5718,9 @@ range-parser@~1.2.1:
   integrity sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
 
 react-devtools-core@^4.27.2:
-  version "4.28.0"
-  resolved "https://registry.yarnpkg.com/react-devtools-core/-/react-devtools-core-4.28.0.tgz#3fa18709b24414adddadac33b6b9cea96db60f2f"
-  integrity sha512-E3C3X1skWBdBzwpOUbmXG8SgH6BtsluSMe+s6rRcujNKG1DGi8uIfhdhszkgDpAsMoE55hwqRUzeXCmETDBpTg==
+  version "4.28.4"
+  resolved "https://registry.yarnpkg.com/react-devtools-core/-/react-devtools-core-4.28.4.tgz#fb8183eada77093f4c2f9830e664bf22255abe27"
+  integrity sha512-IUZKLv3CimeM07G3vX4H4loxVpByrzq3HvfTX7v9migalwvLs9ZY5D3S3pKR33U+GguYfBBdMMZyToFhsSE/iQ==
   dependencies:
     shell-quote "^1.6.1"
     ws "^7"
